@@ -1,0 +1,14 @@
+//https://eth-goerli.g.alchemy.com/v2/azeDQN6OyLaMEyX15WLALUQ9cnzNCm5o
+require('@nomiclabs/hardhat-waffle')
+module.exports=
+{
+  solidity:"0.8.0",
+  networks:
+  {
+    Rinkeby:
+    {
+      url:"https://eth-rinkeby.alchemyapi.io/v2/ShsYlCb56FcuYLswNgJghYgfj_jheCCn",
+      accounts:["147ef0a5451f06a7151b855aa5eca4c2405df68923850c26e9fe2f7e045d185e"]
+    }
+  }
+}
